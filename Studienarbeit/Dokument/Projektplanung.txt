@@ -1,0 +1,32 @@
+Projektplanung
+============================
+Literatur Recherchen 5-10 Tage
+-Fachliteratur
+-Aktueller Stand in der Automobilbranche z.B. Audi Hockenheimring 2014 letztes DTM rennen
+-Andere vergleichbare Systeme in der Industrie
+
+Roboter Aufbau 1-7 Tage
+-Grundaufbau
+-Erweiterung mit weiteren Sensoren , bisher nur Ultraschall Sensor verbaut.
+-
+
+Erarbeitung Robotergrundlagen 5-10 Tage
+-Einsatzgebiete Autonomer Roboter
+-diverse Roboter
+
+1.Programme mit grafischer Programmierung 1-5 Tage
+-gerade Ausfahrt
+-fahrt im Kreis
+-fahren nach bestimmten Mustern
+-Erkennen von Hindernissen
+-Ausweichen von Hindernissen
+
+Umstieg auf IDE 5-10 Tage
+-IDE einrichten
+-Einstieg und Vorbereitung des Roboters
+-
+
+Programme mit IDE 5-10 Tage
+-siehe bei Grafischer Programmierung
+
+schreiben der Studienarbeit 15-20 Tage
