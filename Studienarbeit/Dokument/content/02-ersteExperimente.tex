@@ -10,12 +10,17 @@ Der Roboter soll nach dem einprogrammierten Muster in einer ihm unbekannten Umge
 
 Der Roboter wird mit einer von Lego Entworfenen Programmierumgebung programmiert. Diese Umgebung ist eine grafische Programmierung des Bricks. Diese Programmierumgebung soll im laufe des Projekts benutzt und getestet werden.
  
-\paragraph{Beobachtungen}Hindernisse müssen einen gewisse Breite haben, Inhalt der schleife nicht zu groß sonst Probleme mit dem Ergebnis des Sensors, Unterschiedlich große Kurven auf diversen Oberflächen (Teppich, Fliesen, PVC, Parkett), Eingeschränkte Übersichtlichkeit bei komplexen Programmen.
+\paragraph{Beobachtungen} Bei den Versuchen wurde festgestellt, dass die Hindernisse eine gewisse Breite und auch Höhe haben damit der Sensor sie richtig wahrnimmt.
+Damit die Sensoren zeitlich relativ gute Ergebnisse liefern, dürfen die Schleifen der Sensoren nicht zu viele andere Programmbausteine besitzen. Dies kann dazuführen, dass der Sensor seine Abfrage zu spät ausführt und dadurch schon auf ein Hindernis gestoßen ist.\textbf{Problematik schildern}
 
-POSITIV: Darstellung der Sensorwerte bei Verbindung mit dem EV3.
+Des weiteren wurde bei den Tests festgestellt, dass der Roboter im jetzigen Aufbau auf diversen Oberflächen, wie Teppich, Fliesen oder Parkett, verschieden große Kurvenradien fahren. Dies liegt an den unterschiedlichen Reibungswerten des jeweiligen Untergrunds.
+
+Innerhalb der Programmierumgebung wurde festgestellt, dass die Übersichtlichkeit mit Zunahme der Komplexität abnimmt. Zum Testen der Sensoren und Aktoren des Roboters ist die Programmierumgebung geeignet.
+
+Als positiv zu werten ist die Darstellung der Sensoren. Bei bestehender Verbindung mit dem EV3 kann der Anwender die Sensorwerte direkt in der Programmierumgebung nachvollziehen.
 
 \paragraph{Auswertung}
-Das Programm zum Ausweichen von Gegenständen ist \vref{fig:ultraschallsensor} dargestellt und näher erläutert. Die Programmierumgebung ist zum einarbeiten und kennenlernen der Sensoren geeignet. Jedoch wird das Programm je komplexer es wird auch unübersichtlicher. Die Umgebung zeigt bei bestehender Verbindung zwischen PC und Brick die Echtzeitdaten der Motoren und Sensoren an. Dies unterstützt beim kennenlernen der Sensoren und hilft bei Problemen. So wurde festgestellt, dass der Ultraschallsensor Gegenstände\textbf{Breite unter 2-5 cm} die eine gewisse Breite nicht erfüllen nur fehlerhaft oder gar nicht erkannt werden.  
+Das Programm zum Ausweichen von Gegenständen ist in Abbildung \vref{fig:ultraschallsensor} dargestellt und näher erläutert. Die Programmierumgebung ist zum einarbeiten und kennenlernen der Sensoren geeignet. Jedoch wird das Programm je komplexer es wird auch unübersichtlicher. Die Umgebung zeigt bei bestehender Verbindung zwischen PC und Brick die Echtzeitdaten der Motoren und Sensoren an. Dies unterstützt beim kennenlernen der Sensoren und hilft bei Problemen. So wurde festgestellt, dass der Ultraschallsensor Gegenstände\textbf{Breite unter 2-5 cm} die eine gewisse Breite nicht erfüllen nur fehlerhaft oder gar nicht erkannt werden.  
 
 \section{Test des mitgelieferten Farbsensors}
 \paragraph{Aufbau}
