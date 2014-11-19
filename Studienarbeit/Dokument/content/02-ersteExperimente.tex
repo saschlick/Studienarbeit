@@ -1,5 +1,7 @@
 \chapter{Erste Experimente mit dem EV3}
-In diesem Abschnitt werden verschiedenes Experimente mit dem EV3 vorgestellt. Dazu zählen das kennenlernen der Sensoren so wie deren Zusammenspiel. 
+In diesem Abschnitt werden verschiedenes Experimente mit dem EV3 vorgestellt. Dazu zählen das kennenlernen der Sensoren so wie deren Zusammenspiel.
+\section{Aufbau des Roboters} 
+Anhand einer beiliegenden Anleitung wurde der Roboter zusammengebaut.
 \section{Aufbau und Test des Ultraschallsensors}
 \paragraph{Aufbau und Programmierung des Roboters}
 Der Roboter wurde mit Hilfe der beiliegenden Anleitung zusammengebaut. Er besitzt zwei Motoren, die jeweils eines der Räder antreiben. Damit das Heck nicht auf dem Untergrund aufsetzt, wurde eine freilaufende Kugel installiert. 
@@ -24,14 +26,22 @@ Das Programm zum Ausweichen von Gegenständen ist in Abbildung \vref{fig:ultrasc
 
 \section{Test des mitgelieferten Farbsensors}
 \paragraph{Aufbau}
-- auf den Untergrund gerichteter Farbsensor(von Lego)\\
-- evtl. mit Ultraschallsensor\\
-- Programmiert mit Lego Programmierumgebung\\
+Der Legoeigene Farbsensor wird zuerst nur über ein Kabel mit dem \underline{Brick} verbunden. 
 
+Getestet wurde der Sensor wieder mit der Software von Lego. Dort wurde für die Erkennung von Farben die entsprechenden Parameter eingestellt, damit der Sensor verschiedene Farben erkennen kann. Dies sind acht verschiedene Farben, die von farblos über Gelb und Grün bis hin zu Rot und Schwarz reichen.
+
+Im ersten Test zum kennenlernen wurde auf ein gleichzeitiger Einsatz von Ultraschallsensor und Farbsensor verzichtet.
+
+Im zweiten Test wird der Sensor fest am Roboter verbaut und auf den Boden gerichtet. Aufgrund des vorigen Tests wird der Sensor nicht zu weit über dem Boden montiert. Mit entsprechender Programmierung soll der Roboter solange fahren, bis sich auf dem Boden eine Markierung mit einer anderen Farbe befindet. Wird dies festgestellt, soll der Roboter anhalten.  
 \paragraph{Ziel}
+Ziel dieser Tests ist es den Sensor kennenzulernen. Hierzu zählen die notwendigen Abstände des Sensors, so wie die möglichen Farben die der Sensor erkennen könnte.
+Ebenfalls soll mit dem Test festgestellt werden, ob der Sensor für das Projekt genutzt werden kann. Dazu wird ein Programm geschrieben, in dem sich der Roboter bewegt und sobald er eine andere, noch nicht festgelegte, Farbe auf dem Boden erkennt, anhält. 
 - Sensor kennenlernen\\
 - Sensor einsetzen können\\
-- Feststellung ob der Sensor für das Projekt geeignet ist\\
+- Feststellung ob der Sensor für das Projekt geeignet ist
 
 \paragraph{Beobachtungen}
+Während dem ersten Teil des Tests, als der Sensor noch nicht fest am Roboter gefestigt war, wurde festgestellt, dass der Sensor einen gewissen Bereich hat in dem es zu Fehlmessungen kommen kann. Zusätzlich dazu war festzustellen, dass der Sensor bei Mischfarben falsche Farbwerte liefert. Er zeigte beispielsweise bei einer Mischung aus grüner und brauner Farbe, dass er die Farbe schwarz erkannt hätte.
 \paragraph{Auswertung}
+-Bedingt einsetzbar für das Projekt.\\
+Grund :$\Rightarrow$ Farben müssen eindeutig sein und dürfen keine Mischfarben sein.
