@@ -16,12 +16,16 @@ Trifft der Vergleich \textbf{Vergleich erläutern} zu so fährt der Roboter mit 
 
 Trifft der Vergleich nicht zu, wird zuerst ein Ton über den integrierten Lautsprecher ausgegeben. Dieser Ton ist ein 440Hz Ton und wird mit voller Lautstärke eine Sekunde lang ausgegeben. Anschliesend fährt der Roboter mit halber Kraft zwei Radumdrehung zurück. Ist dies erledigt, soll sich der Roboter um 45 Grad drehen. Aufgrund der Endlosschleife wird wieder von Vorne begonnen und der Ultraschallsensor wird abgefragt. Dieser Zweig ist in der Darstellung \vref{fig:ultraschallsensorprog} an dem darüber stehenden x zuerkennen.
 
-\section{Testprogramm des Farbsensor}
+\section{Testprogramm des Lego-Farbsensor}
 \begin{figure}[htb]
 \centering
 \includegraphics[width= 14cm]{Prog_LichtsensorLego_v1}
 \caption{Lego-Programm zum Test und Kennenlernen des Lichtsensors von Lego}
-%\label{fig:ultraschallsensorprog}
+\label{fig:ultraschallsensorprog}
 \end{figure}
+Das unter \vref{fig:ultraschallsensorprog} dargestellte programm ist ein Beispielprogramm für den Lego eigenen Farbsensor. 
+Mit Hilfe dieses Programms wurde festgestellt, dass der Sensor manche Farben fehlerhaft erkennt. Dies ist zurückzuführen auf seine niedrige Farbauflösung. Diese Detektiert lediglich acht verschiedene Farben.
+\section{Installation Vision subsystem v4}
+Aufgrund der schlechten Farbauflösung des Lego eigenen Sensors, wurde ein weiterer Sensor angeschafft. Für diesen Sensor mussten weiter Vorarbeiten und Änderungen vorgenommen werden.
 
 
