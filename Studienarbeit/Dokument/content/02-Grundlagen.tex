@@ -1,8 +1,15 @@
 \chapter{Grundlagen}
-In diesem Kapitel werden die Grundlagen von Robotern behandelt.
+In diesem Kapitel werden die Grundlagen von Robotern behandelt. Es wird der zu Grunde liegende Aufbau des Roboters, im Bezug auf dessen Fortbewegung, vorgestellt. Ebenso werden heutige Fahrassistenzsysteme wie beispielsweise ABS vorgestellt. Zu diesem Kapitel gehört auch eine Übersicht über die Verwendung aktueller Assistenzsysteme.
 \section{Bedeutung des Roboter}
-\section{Antriebsart des Roboters}
-Zwei Haupträder werden mit Getrieb- oder Schrittmotoren unabhängig angetrieben. Ein rein passives Stützrad, ähnlich wie bei den Einkaufwagen im Supermarkt (da sind es aber zwei), stützt das Fahrzeug an einem dritten Punkt.
+
+\section{Antriebsart des Versuchsroboters} \label{lab:Antriebsart}
+Der Versuchsroboter wird mit zwei unabhängigen Motoren ausgestattet. Diese Motoren treiben jeweils eins der beiden Haupträder an. Zusätzlich erhält der Roboter ein Stützrad, welches durch eine freilaufende Kugel realisiert wurde. Es stützt den Roboter soweit ab, dass dieser nicht nach hinten kippen kann und somit Bauteile auf dem Untergrund schleifen.
+
+Der Antrieb ist in diesem Aufbau ein Differential Antrieb. Mit diesem Antrieb sind sowohl Geradeausfahrten als auch Kurvenfahrten sowie das Drehen auf der Stelle möglich. Sein Hauptvorteil besteht in der einfachen Mechanik die Verbaut wird. Aufgrund seiner zwei unabhängig von einander steuerbaren Räder ist sein Einsatz für dieses Projekt optimal geeignet und sein eigentlicher Nachteil fällt somit nicht weiter auf.
+ 
+Sein Nachteil ist, dass die Räder in Echtzeit geregelt werden müssen.  
+
+\textbf{Quelle : Strand, Marcus Vorlesungsfolien } 
 
 \section{Assistenzsysteme heutiger Fahrzeuge}
 In der heutigen Zeit unterstützen die Fahrer einige Helfer, auch Assistenzsysteme genannt. Diese Systeme sollen dazu beitragen, den Straßenverkehr sicherer zumachen. Sie entlasten und unterstützen den Fahrer in jeglicher Fahrsituation. So helfen sie beim einparken des Fahrzeugs oder verhindern in Gefahrensituationen den Verlust über die Kontrolle.
@@ -14,7 +21,7 @@ Ein Assistenzsystem welches sich in der Automobilbranche flächendeckend durchge
 Dieses System ist inzwischen bei jedem großen Automobilhersteller in den Ausstattungslisten der Fahrzeuge. Meist ist es serienmäßig in die Fahrzeuge integriert oder kann für einen geringen Aufpreis nachgeordert werden. 
 
 Antiblockierysteme werden nicht nur bei Autos eingesetzt. Es wird ebenfalls in Flugzeugen Zügen und Motorrädern eingesetzt. 
-Den ersten Einsatz eines solchen Systems fanden schon 1920 in einem Flugzeug statt.
+Den ersten Einsatz eines solchen Systems fand 1920 in einem Flugzeug statt.
 
 \subsection{PDC - Park Distanz Kontrolle}
 Dieses System unterstützt den Fahrer mit Hilfe akustischen und visuellen Warnhinweisen beim einparken seines Fahrzeugs. 
@@ -35,19 +42,24 @@ Da diese unterschiedlichen Bezeichnungen zu Verwirrung führen kann wird in Fach
 
 
 \subsection{Automatisches einparken}
+
 \subsection{Anwendung aktueller Assistenzsysteme}
 In den Fahrzeugen, die heute die Fabrikhallen verlassen finden sich inzwischen immer mehr Assistenzsysteme. Diese reichen vom ESP bis hin zum Spurhalteassistent oder dem Automatischen Einparksystemen. Jedoch ruhen sich die Hersteller auf diesen Systemen nicht aus und entwickeln immer umfangreichere Systeme für folgende Fahrzeuggenerationen. 
-Bei allen Erleichterungen und Unterstützung für den Fahrer sollte nicht vergessen werden, dass der Fahrer immer noch selbst am Steuer sitzt und für sein Fahrzeug verantwortlich ist. Bei Testfahrten eines Erlkönigs der Marke BMW kam es am 28. März diesen Jahres zu einem Unfall. Während der Testfahrt, auf der der Fahrer laut dem Hersteller \textbf{„kamerabasierte“ Fahrerassistenzsysteme bei Dunkelheit testen} sollte kam es in Stuttgart zu einem Unfall. In diesen Unfall war ein, mit Sondersignal fahrendes, Polizeiauto verwickelt, welches im Kreuzungsbereich zum Umkippen gebracht wurde.
+\paragraph{Probleme aktueller Systeme} Bei allen Erleichterungen und aller Unterstützung für den Fahrer sollte nicht vergessen werden, dass der Fahrer immer noch selbst am Steuer sitzt und für sein Fahrzeug verantwortlich ist. Bei Testfahrten eines Erlkönigs der Marke BMW kam es am 28. März diesen Jahres zu einem Unfall. Während der Testfahrt, auf der der Fahrer laut dem Hersteller \textbf{„kamerabasierte“ Fahrerassistenzsysteme bei Dunkelheit testen} sollte kam es in Stuttgart zu einem Unfall. In diesen Unfall war ein, mit Sondersignal fahrendes, Polizeiauto verwickelt, welches im Kreuzungsbereich zum Umkippen gebracht wurde.
 Dieser Unfall zeigt, dass die heutigen Assistenzsysteme schon sehr weit entwickelt sind. Jedoch bedarf es immer noch einem Fahrer, der in Ausnahmesituationen eingreifen kann und einen solchen Unfall verhindert. Weshalb der Fahrer in dieser Situation nicht eingegriffen hat, oder ob es ein Problem mit der Steuerung gab ist nicht bekannt.
 
-Wie dieser Unfall zeigt sind die Assistenzsysteme noch nicht soweit, dass sie alleine, ohne Fahrer, im Straßenverkehr bestehen können. Jedoch sind die Hersteller inzwischen soweit, dass sie Fahrzeuge im Testbetrieb haben, die ohne Fahrer ihre Runden auf den Rennstrecken dieser Welt drehen können. So stellte AUDI, im Rahmen des letzten DTM-Rennens der Saison 2014, ein Auto vor, welches ohne Fahrer eine Runde im Renntempo über den Hockenheimring fuhr. Die Daten für den Fahrtweg ermittelt es mithilfe von Kameras, die in und um das Fahrzeug verteilt sind. Unterstützt wird es durch weitere Sensoren wie GPS, Raddrehzahlsensor, Gierratensensor und andern Sensoren. Aus diesen Daten errechnet der Computer die Optimale Geschwindigkeit, Bremspunkte und Position auf der Strecke. Bei den Zuschauern kam diese Vorführung gut an. Das Fahrzeug wurde in der Zwischenzeit in mehreren Fernsehsendungen, unter anderem bei GRIP auf RTL II, vorgestellt. 
+Wie dieser Unfall zeigt sind die Assistenzsysteme noch nicht soweit, dass sie alleine, ohne Fahrer, im Straßenverkehr bestehen können. 
+
+\paragraph{Zukunftsweißende Projekte} Jedoch sind die Hersteller inzwischen soweit, dass sie Fahrzeuge im Testbetrieb haben, die ohne Fahrer ihre Runden auf den Rennstrecken dieser Welt drehen können. So stellte AUDI, im Rahmen des letzten DTM-Rennens der Saison 2014, ein Auto vor, welches ohne Fahrer eine Runde im Renntempo über den Hockenheimring fuhr. Die Daten für den Fahrtweg ermittelt es mithilfe von Kameras, die in und um das Fahrzeug verteilt sind. Unterstützt wird es durch weitere Sensoren wie GPS, Raddrehzahlsensor, Gierratensensor und andern Sensoren. Aus diesen Daten errechnet der Computer die Optimale Geschwindigkeit, Bremspunkte und Position auf der Strecke. Bei den Zuschauern kam diese Vorführung gut an. Das Fahrzeug wurde in der Zwischenzeit in mehreren Fernsehsendungen, unter anderem bei GRIP auf RTL II, vorgestellt. 
 Ein ähnliches Auto hat auch BMW im Fuhrpark. Dieses Fahrzeug wurde in der Sendung TopGear mit Jeremy Clarkson vorgestellt und getestet, jedoch ist dieses Fahrzeug weit weniger bekannt als das von AUDI.
 
-Trotz dem Erfolg dieser Autos auf den Rennstrecken darf nicht vergessen werden, dass diese Systeme in dieser Konstellation nicht auf öffentlichen Straßen verwendet werden dürfen. Jedoch arbeiten die Hersteller intensiv daran, den Fahrer immer mehr zu entlasten und ihm bei kritischen Situationen zu unterstützen. So werden auch Systeme für den Stop-and-Go Verkehr getestet. Ein solches System soll dem Fahrer entlasten. Es übernimmt innerhalb dieser Fahrsituation gewisse Aufgaben des Fahrers.
+Trotz dem Erfolg dieser Autos auf den Rennstrecken, darf nicht vergessen werden, dass diese Systeme in dieser Konstellation nicht auf öffentlichen Straßen verwendet werden dürfen. Jedoch arbeiten die Hersteller intensiv daran, den Fahrer immer mehr zu entlasten und ihm bei kritischen Situationen zu unterstützen. So werden auch Systeme für den Stop-and-Go Verkehr getestet. Ein solches System soll dem Fahrer entlasten. Es übernimmt innerhalb dieser Fahrsituation gewisse Aufgaben des Fahrers.
 
-Heutige Fahrassistenzsysteme unterstützen den Fahrer in Gefahrensituationen wie beispielsweise mit ESP für schleudernde Fahrzeuge oder einem Notbremssystem für Fußgänger. Ebenso helfen sie dem Fahrer durch vollautomatisches oder teil-automatisiertes einparken. 
+\paragraph{Fazit} Heutige Fahrassistenzsysteme unterstützen den Fahrer in Gefahrensituationen wie beispielsweise mit ESP für schleudernde Fahrzeuge oder einem Notbremssystem für Fußgänger. Ebenso helfen sie dem Fahrer durch vollautomatisches oder teil-automatisiertes einparken. 
+
+Trotz der Fülle verschiedener Assistenzsysteme ist  immer noch ein Fahrer nötig, der das Fahrzeug steuert. 
 
 
 
 
-\section{Spurgeführte Fahrzeuge}
+\section{Automatisch geführte Fahrzeuge}
