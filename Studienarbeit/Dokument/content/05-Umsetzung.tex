@@ -5,10 +5,14 @@
 -Wartedauer\\
 
 \section{Einsatz Gyrosensor}
--Wieso weshalb warum?\\
-Idee: Unabhängigkeit bei Drehungen vom Untergrund\\
-Probleme : Genauigkeit des Sensors\\
-Problemlösung: Fehlertoleranz Rechnung
+In diesem Abschnitt wird näher erläutert weshalb für die Gesamtlösung des Projekts ein Gyrosensor genutzt wird. Dieser wäre zwar für die finale Umsetzung zwar nicht zwingend notwendig, jedoch wird die Handhabung und die Lesbarkeit des Programms deutlich verbessert durch den Einsatz eines Gyrosensors.
+
+\paragraph{Idee}Mit fortlaufender Dauer des Projektes stellte sich immer mehr heraus, dass es zu umständlich ist, für jeden Boden immer die Parameter für eine Drehung anzupassen.  Nach kurzer Recherche entschied ich mich dazu, zusätzlich zum Ultraschall- und Farbsensor noch den Gyrosensor zu nutzen.
+\paragraph{Problem} Bei den ersten Versuchen mit dem Gyrosensor wurde recht schnell festgestellt, dass er doch eine Erhebliche Fehlertoleranz aufweist. Da diese nicht eingestellt werden kann muss diese mit Hilfe einer Berechnung gelöst werden. 
+
+\paragraph{Problemlösung} 
+Um diese Fehlertoleranzen auszugleichen wurde extra ein Programm entwickelt, welches unter einem eigenen Block zusammen gefasst wurde. Mit Hilfe des Programms ist es, bis auf kleinere Abweichungen von 1-3 Grad, möglich den Roboter um bis $180$ Grad in jede Richtung zu drehen.  
+
 \section{Einsatz eigener Blöcke}
 -Wieso weshalb warum\\
 -was tun die Blöcke\\
